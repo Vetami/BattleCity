@@ -1,5 +1,5 @@
 #include <iostream>
-//test
+//tests
 int main()
 {
     return 0;
