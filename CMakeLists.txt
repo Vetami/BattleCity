@@ -7,8 +7,6 @@ set(PROJECT_NAME BattleCity)
 
 project(${PROJECT_NAME})
 
-set()
-
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 add_subdirectory(external/glfw)
