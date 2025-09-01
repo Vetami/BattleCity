@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/vadim/Projects/BattleCity/build/cmake_install.cmake",
+		"/Users/vadim/Projects/BattleCity/build/external/glfw/cmake_install.cmake",
+		"/Users/vadim/Projects/BattleCity/build/external/glfw/src/cmake_install.cmake",
+		"/Users/vadim/Projects/BattleCity/build/external/glfw/docs/cmake_install.cmake",
+		"/Users/vadim/Projects/BattleCity/build/external/glad/cmake_install.cmake",
+		"/Users/vadim/Projects/BattleCity/build/external/glm/cmake_install.cmake",
+		"/Users/vadim/Projects/BattleCity/build/external/glm/glm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
