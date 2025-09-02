@@ -3,19 +3,14 @@
 #include <filesystem>
 #include <iostream>
 
-
-
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
 
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
-int main()
+int main(int argc, char* argv[])
 {
-
-    std::cout << "Current working directory: " << std::filesystem::current_path() << std::endl;
-
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -46,7 +41,7 @@ int main()
     }
  
 
-    Shader myShader("src/shaders/vShader.vs", "src/shaders/fShader.vs");
+    Shader myShader("shaders/vShader.vs", "shaders/fShader.vs");
 
     GLfloat vertices[] =
     {

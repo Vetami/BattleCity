@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28.3 FATAL_ERROR)
+cmake_minimum_required(VERSION 4.1.0 FATAL_ERROR)
 
 set (CMAKE_CXX_STANDARD 17)
 
@@ -18,5 +18,5 @@ target_link_libraries(${PROJECT_NAME} glad)
 add_subdirectory(external/glm)
 target_link_libraries(${PROJECT_NAME} glm)
 
-target_link_directories(${PROJECT_NAME} PUBLIC src)
+
 

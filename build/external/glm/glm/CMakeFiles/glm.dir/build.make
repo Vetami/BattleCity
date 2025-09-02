@@ -76,15 +76,15 @@ external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o: external/glm/glm/CMakeFile
 external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o: /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp
 external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o: external/glm/glm/CMakeFiles/glm.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vadim/Projects/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o"
-	cd /Users/vadim/Projects/BattleCity/build/external/glm/glm && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o -MF CMakeFiles/glm.dir/detail/glm.cpp.o.d -o CMakeFiles/glm.dir/detail/glm.cpp.o -c /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp
+	cd /Users/vadim/Projects/BattleCity/build/external/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o -MF CMakeFiles/glm.dir/detail/glm.cpp.o.d -o CMakeFiles/glm.dir/detail/glm.cpp.o -c /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp
 
 external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glm.dir/detail/glm.cpp.i"
-	cd /Users/vadim/Projects/BattleCity/build/external/glm/glm && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp > CMakeFiles/glm.dir/detail/glm.cpp.i
+	cd /Users/vadim/Projects/BattleCity/build/external/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp > CMakeFiles/glm.dir/detail/glm.cpp.i
 
 external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glm.dir/detail/glm.cpp.s"
-	cd /Users/vadim/Projects/BattleCity/build/external/glm/glm && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp -o CMakeFiles/glm.dir/detail/glm.cpp.s
+	cd /Users/vadim/Projects/BattleCity/build/external/glm/glm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadim/Projects/BattleCity/external/glm/glm/detail/glm.cpp -o CMakeFiles/glm.dir/detail/glm.cpp.s
 
 # Object files for target glm
 glm_OBJECTS = \

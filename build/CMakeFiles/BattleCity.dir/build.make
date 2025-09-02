@@ -76,15 +76,15 @@ CMakeFiles/BattleCity.dir/src/main.cpp.o: CMakeFiles/BattleCity.dir/flags.make
 CMakeFiles/BattleCity.dir/src/main.cpp.o: /Users/vadim/Projects/BattleCity/src/main.cpp
 CMakeFiles/BattleCity.dir/src/main.cpp.o: CMakeFiles/BattleCity.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vadim/Projects/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BattleCity.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/main.cpp.o -MF CMakeFiles/BattleCity.dir/src/main.cpp.o.d -o CMakeFiles/BattleCity.dir/src/main.cpp.o -c /Users/vadim/Projects/BattleCity/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/main.cpp.o -MF CMakeFiles/BattleCity.dir/src/main.cpp.o.d -o CMakeFiles/BattleCity.dir/src/main.cpp.o -c /Users/vadim/Projects/BattleCity/src/main.cpp
 
 CMakeFiles/BattleCity.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadim/Projects/BattleCity/src/main.cpp > CMakeFiles/BattleCity.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vadim/Projects/BattleCity/src/main.cpp > CMakeFiles/BattleCity.dir/src/main.cpp.i
 
 CMakeFiles/BattleCity.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadim/Projects/BattleCity/src/main.cpp -o CMakeFiles/BattleCity.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vadim/Projects/BattleCity/src/main.cpp -o CMakeFiles/BattleCity.dir/src/main.cpp.s
 
 # Object files for target BattleCity
 BattleCity_OBJECTS = \

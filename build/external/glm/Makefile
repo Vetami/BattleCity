@@ -137,6 +137,13 @@ all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vadim/Projects/BattleCity/build/CMakeFiles 0
 .PHONY : all
 
+# The main codegen target
+codegen: cmake_check_build_system
+	cd /Users/vadim/Projects/BattleCity/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vadim/Projects/BattleCity/build/CMakeFiles /Users/vadim/Projects/BattleCity/build/external/glm//CMakeFiles/progress.marks
+	cd /Users/vadim/Projects/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glm/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vadim/Projects/BattleCity/build/CMakeFiles 0
+.PHONY : codegen
+
 # The main clean target
 clean:
 	cd /Users/vadim/Projects/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glm/clean
@@ -167,6 +174,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
