@@ -18,5 +18,8 @@ target_link_libraries(${PROJECT_NAME} glad)
 add_subdirectory(external/glm)
 target_link_libraries(${PROJECT_NAME} glm)
 
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}")
 
-
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/includes/" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/includes")
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/shaders/" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/shaders")
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/textures/" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/textures")
